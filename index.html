@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="welcome-screen" class="center">
+    <h1>Welcome to Our Shop</h1>
+    <button onclick="startSurvey()">Start</button>
+  </div>
+
+  <div id="survey-screen" class="center" style="display: none;">
+    <h2 id="question-number"></h2>
+    <h3 id="question-text"></h3>
+    <div id="answer-options"></div>
+    <div class="button-container">
+      <button id="prev-button" class="button button-prev" onclick="prevQuestion()" disabled>Prev</button>
+      <button id="next-button" class="button button-next" onclick="nextQuestion()">Next</button>
+    </div>
+  </div>
+
+  <div id="submit-dialog" class="center" style="display: none;">
+    <h2>Survey Summary</h2>
+    <div id="summary-answers"></div>
+    <p>Are you sure you want to submit the survey?</p>
+    <button class="button button-submit" onclick="submitSurvey()">Submit</button>
+    <button class="button button-cancel" onclick="cancelSubmit()">Cancel</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

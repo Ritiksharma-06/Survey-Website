@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, #fddb92, #d1fdff);
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-prev {
+  background-color: #f44612;
+  color: white;
+  margin-right: 10px;
+}
+
+.button-next {
+  background-color: #40ea46;
+  color: white;
+  margin-left: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-submit {
+  background-color: #2b4eff;
+  color: white;
+}
+
+.button-cancel {
+  background-color: #F44336;
+  color: white;
+}
+
+/* Update the styles for the welcome screen */
+#welcome-screen {
+  padding: 50px;
+  background-color: hsl(340, 100%, 90%);
+}
+
+h1 {
+  color: #ce618d;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #FF4081;
+}
+
+.button:hover {
+  background-color: #F50057;
+}
+
+/* Update the styles for the survey screen */
+#survey-screen {
+  padding: 50px;
+  background-color: #E1BEE7;
+}
+
+h2, h3 {
+  color: #880E4F;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.answer-options label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+/* Update the styles for the submit dialog */
+#submit-dialog {
+  padding: 50px;
+  background-color: #B39DDB;
+}
+
+h2 {
+  color: #512DA8;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-submit {
+  background-color: #3F51B5;
+}
+
+.button-cancel {
+  background-color: #F44336;
+}
+
